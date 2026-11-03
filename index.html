@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Customer Form</h1>
+    <table>
+   
+ <tr>
+        <td>Name</td>
+        <td><input type="text" name="name" id="txtName"></td>
+    </tr>
+
+    <tr>
+        <td>Age</td>
+        <td> <input type="text" name="age" id="txtAge"></td>
+    </tr>
+
+    <tr>
+        <td>Adress</td>
+        <td> <input type="text" name="adress" id="txtAddress"></td>
+    </tr>
+
+    <tr>
+        <td>Salary</td>
+        <td><input type="text" name="salary" id="txtSalary"></td>
+    </tr>
+
+    <tr>
+        <td>Contact</td>
+        <td><input type="text" name="contact" id="txtContact">
+
+    </tr>
+     
+    <tr>
+    <td></td>
+    <td>
+        <input type="button" value="Add" id="Addbtn" onclick="addCustomerOnAction()">
+        <input type="button" value="View" id="Viewbtn" onclick="addCustomerOnAction()">
+        <input type="button" value="Update" id="Updatebtn" onclick="addCustomerOnAction()">
+        <input type="button" value="Delete" id="Deletebtn" onclick="addCustomerOnAction()">
+    </td>
+    </tr>
+    </table>
+
+    <a href="items.html">Items</a>
+
+
+    <table id="tblCustomers">
+        
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
